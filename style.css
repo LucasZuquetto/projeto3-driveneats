@@ -6,6 +6,9 @@ body{
     align-items: center;
     background: #E5E5E5;
 }
+ion-icon{
+    display: none;
+}
 img{
     width: 144px;
     height: 87px;
@@ -110,4 +113,16 @@ button{
     height: 190px;
     box-sizing: border-box;
     width: 165px;
+}
+.selecionado{
+    border: 4px solid green;
+    position: relative;
+}
+.selecionado>ion-icon{
+    display: initial;
+    color: green;
+    font-size: 19px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
