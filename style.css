@@ -55,10 +55,12 @@ p{
     font-size: 15px;
     color: #A6A6A6;
 }
-button{
+.btn{
+    box-sizing: border-box;
     background-color: #cbcbcb;
     border-radius: 50px;
-    width: 320px
+    width: 320px;
+    padding-top: 8px;
 }
 .top{
     width: 100%;
@@ -77,6 +79,7 @@ button{
     bottom: 0;
     right: 0;
     padding: 10px;
+    height: 61px;
 }
 .menu-prato{
     width: 100%;
@@ -89,7 +92,7 @@ button{
 }
 .menu-sobremesa{
     width: 100%;
-    margin-bottom:80px;
+    margin-bottom:85px;
 }
 .title{
     margin-left: 15px;
@@ -125,4 +128,15 @@ button{
     position: absolute;
     bottom: 5px;
     right: 5px;
+}
+.textopedido{
+    flex-wrap: wrap;
+    width: 200px;
+    padding-left: 55px;
+}
+.paddingtop{
+    padding-top: 9px;
+}
+.corbotao{
+    background-color:#32B72F ;
 }
