@@ -27,7 +27,7 @@
                 <h3>Frango Yin Yang</h3>
                 <p>Um pouco de batata,</p>
                 <p>um pouco de salada</p>
-                <h6>R$ 14,90</h6>
+                <h6>R$ <span>14.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarcomida(this)">
@@ -35,7 +35,7 @@
                 <h3>Risoto</h3>
                 <p>Um pouco de arroz,</p>
                 <p>um pouco de carne</p>
-                <h6>R$ 21,90</h6>
+                <h6>R$ <span>21.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarcomida(this)">
@@ -43,7 +43,7 @@
                 <h3>Filé a parmegiana</h3>
                 <p>Um pouco de filé,</p>
                 <p>um pouco de a parmegiana</p>
-                <h6>R$ 49,90</h6>
+                <h6>R$ <span>49.90</span> </h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarcomida(this)">
@@ -51,7 +51,7 @@
                 <h3>Sushi</h3>
                 <p>Um pouco de salmão,</p>
                 <p>um pouco de alga</p>
-                <h6>R$ 42,90</h6>
+                <h6>R$ <span>41.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
         </div>
@@ -65,28 +65,28 @@
                 <img src="./img/agua.jpeg">
                 <h3>Água sem gás</h3>
                 <p>Garrafa 500ml</p>
-                <h6>R$ 3,90</h6>
+                <h6>R$ <span>3.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon><ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarbebida(this)">
                 <img src="./img/coquinha_gelada 1.png">
                 <h3>Coquinha gelada</h3>
                 <p>Lata 350ml</p>
-                <h6>R$ 5,90</h6>
+                <h6>R$ <span>5.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarbebida(this)">
                 <img src="./img/fanta.jpeg">
                 <h3>Fanta</h3>
                 <p>lata 350ml</p>
-                <h6>R$ 4,90</h6>
+                <h6>R$ <span>4.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarbebida(this)">
                 <img src="./img/sucolaranja.jpeg">
                 <h3>Suco de Laranja</h3>
                 <p>Copo 400ml</p>
-                <h6>R$ 7,90</h6>
+                <h6>R$ <span>7.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
         </div>
@@ -100,35 +100,35 @@
                 <img src="./img/pudim 1.png">
                 <h3>Pudim</h3>
                 <p>Apenas pudim</p>
-                <h6>R$ 9,90</h6>
+                <h6>R$ <span>9.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarsobremesa(this)">
                 <img src="./img/tortalimao.png">
                 <h3>Torta</h3>
                 <p>Sabor limão</p>
-                <h6>R$ 11,90</h6>
+                <h6>R$ <span>11.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarsobremesa(this)">
                 <img src="./img/moussemaracuja.jpeg">
                 <h3>Mousse</h3>
                 <p>Sabor maracujá</p>
-                <h6>R$ 12,90</h6>
+                <h6>R$ <span>12.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
             <div class="card" onclick="selecionarsobremesa(this)">
                 <img src="./img/bolo.jpeg">
                 <h3>Bolo</h3>
                 <p>Sabor chocolate</p>
-                <h6>R$ 13,90</h6>
+                <h6>R$ <span>13.90</span></h6>
                 <ion-icon name="checkmark-circle"></ion-icon>
             </div>
         </div>
     </div>
     <div class="bottom">
         <div class="btn">
-            <h5 class="textopedido">Selecione os 3 itens <br> para fechar o pedido</h5>
+            <h5 class="textopedido" onclick="EnviarWpp()">Selecione os 3 itens <br> para fechar o pedido</h5>
         </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
